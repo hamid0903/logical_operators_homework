@@ -7,4 +7,8 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'b' is even, False otherwise
     """
-    return
+    a%=2
+    b%=2
+    return a==0 and b==0
+x=main(8,6) 
+print(x)
