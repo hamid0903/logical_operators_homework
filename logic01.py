@@ -8,6 +8,6 @@ def main(a,b,c):
     Returns:
         True if b is between a and c, False otherwise
     """
-    return a>b>c
+    return a<b<c
 x=main(5,6,7)
 print(x)
