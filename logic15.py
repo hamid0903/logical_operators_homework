@@ -6,4 +6,11 @@ def main(a):
     Returns:
         True if all digits sum is odd, False otherwise
     """
-    return
+    a1=a%10
+    a//=10
+    a2=a%10
+    a3=a//10
+    a=(a1+a2+a3)%2
+    return a==1
+x=main(123)
+print(x)
