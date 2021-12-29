@@ -16,7 +16,7 @@ def main(a):
 
     a4=a%10
     a5=a//10    
-    print(a5,a4,a3,a2,a1)
-    return a5>a4>a3>a2>a1
+
+    return a5<a4<a3<a2<a1
 x=main(97643)
 print(x)
