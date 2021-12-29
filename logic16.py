@@ -6,16 +6,16 @@ def main(a):
     Returns:
         True if a is five-digit number, False otherwise
     """
-    x1=pow(0,a)
+    a1=pow(0,a)
     a//=10
-    x2=pow(0,a)
+    a2=pow(0,a)
     a//=10
-    x3=pow(0,a)
+    a3=pow(0,a)
     a//=10
-    x4=pow(0,a)
+    a4=pow(0,a)
     a//=10
-    x5=pow(0,a)
-    a=5-(x1+x2+x3+x4+x5)
-    return a==5
-x=main(1234)
+    a5=pow(0,a)
+    a=(a1+a2+a3+a4+a5)
+    return a==0
+x=main(12345)
 print(x)
