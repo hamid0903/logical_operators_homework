@@ -6,4 +6,9 @@ def main(a):
     Returns:
         True if all digits sum is even, False otherwise
     """
-    return
+    a1=a%10
+    a2=a//10
+    a=(a1+a2)%2
+    return a==0
+x=main(13)
+print(x)
